@@ -31,5 +31,5 @@ This repo contains example scripts that cover:
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/your-username/streamlit-basics.git
+   git clone https://github.com/ifilipechau/streamlit-basics.git
    cd streamlit-basics
