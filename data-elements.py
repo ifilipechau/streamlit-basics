@@ -26,3 +26,12 @@ st.table(df) # Display the dataframe as a static table
 st.subheader("Metrics")
 st.metric(label="Total Rows", value=len(df)) # Display the number of rows in the dataframe
 st.metric(label="Average Age", value=round(df['Age'].mean(), 2)) # Display the average age of the people in the dataframe
+
+# JSON and Dict Display
+st.subheader("JSON and Dictionary Display")
+sample_dict = {
+    "name": "John",
+    "age": 30,
+    "skills": ["Python", "Streamlit", "Data Science"]
+}
+st.json(sample_dict) # Display the dictionary as JSON
