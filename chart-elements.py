@@ -13,3 +13,7 @@ chart_data = pd.Dataframe(
     np.random.randn(20,3),
     columns=['X','Y','Z']
 )
+
+# Area chart 
+st.subheader("Area Chart")
+st.area_chart(chart_data)
