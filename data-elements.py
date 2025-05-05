@@ -13,3 +13,7 @@ df = pd.DataFrame({
     'Occupation': ['Engineer', 'Doctor', 'Artist', 'Teacher', 'Phylosopher']
 })
 st.dataframe(df) # Display the dataframe with a scrollbar
+
+# Data Editor, edits the dataframe in place
+st.subheader("Dataframe Editor")
+editable_df = st.data_editor(df)
