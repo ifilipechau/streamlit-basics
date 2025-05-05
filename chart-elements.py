@@ -17,3 +17,7 @@ chart_data = pd.Dataframe(
 # Area chart 
 st.subheader("Area Chart")
 st.area_chart(chart_data)
+
+# Bar Chart
+st.subheader("Bar Chart")
+st.bar_chart(chart_data)
