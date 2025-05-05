@@ -41,3 +41,13 @@ scatter_data = pd.DataFrame({
     'y': np.random.randn(100)
 })
 st.scatter_chart(scatter_data)
+
+# Pyplot chart
+st.subheader("Pyplot Chart")
+fig, ax = plt.subplots()
+ax.plot(chart_data['X'], label='X')
+ax.plot(chart_data['Y'], label='Y')
+ax.plot(chart_data['Z'], label='Z')
+ax.set_title('Pyplot Chart')
+ax.legend()
+st.pyplot(fig)
