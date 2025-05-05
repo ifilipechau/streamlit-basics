@@ -21,3 +21,8 @@ editable_df = st.data_editor(df)
 # Static Table
 st.subheader("Static Table")
 st.table(df) # Display the dataframe as a static table
+
+# Metrics
+st.subheader("Metrics")
+st.metric(label="Total Rows", value=len(df)) # Display the number of rows in the dataframe
+st.metric(label="Average Age", value=round(df['Age'].mean(), 2)) # Display the average age of the people in the dataframe
