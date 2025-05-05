@@ -25,3 +25,11 @@ st.bar_chart(chart_data)
 # Line Chart
 st.subheader("Line Chart")
 st.line_chart(chart_data)
+
+# Map Chart (display a map with random data)
+st.subheader("Map Chart")
+map_data = pd.DataFrame(
+    np.random.randn(1000,2) / [50,50] + [37.76, -122.4],
+    columns=['lat','lon']
+)
+st.map(map_data)
