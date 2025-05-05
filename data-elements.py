@@ -17,3 +17,7 @@ st.dataframe(df) # Display the dataframe with a scrollbar
 # Data Editor, edits the dataframe in place
 st.subheader("Dataframe Editor")
 editable_df = st.data_editor(df)
+
+# Static Table
+st.subheader("Static Table")
+st.table(df) # Display the dataframe as a static table
