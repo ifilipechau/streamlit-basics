@@ -21,3 +21,7 @@ st.area_chart(chart_data)
 # Bar Chart
 st.subheader("Bar Chart")
 st.bar_chart(chart_data)
+
+# Line Chart
+st.subheader("Line Chart")
+st.line_chart(chart_data)
