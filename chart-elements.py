@@ -33,3 +33,11 @@ map_data = pd.DataFrame(
     columns=['lat','lon']
 )
 st.map(map_data)
+
+# Scatter chart (using matplotlib)
+st.subheader("Scatter Chart")
+scatter_data = pd.DataFrame({
+    'x': np.random.randn(100),
+    'y': np.random.randn(100)
+})
+st.scatter_chart(scatter_data)
