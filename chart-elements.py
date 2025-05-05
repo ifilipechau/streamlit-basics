@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 st.title("Chart elements in Streamlit: ")
 
 # Generate some random data for the charts
-chart_data = pd.Dataframe(
+chart_data = pd.DataFrame(
     np.random.randn(20,3),
     columns=['X','Y','Z']
 )
