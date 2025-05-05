@@ -35,3 +35,6 @@ sample_dict = {
     "skills": ["Python", "Streamlit", "Data Science"]
 }
 st.json(sample_dict) # Display the dictionary as JSON
+
+# Display a dictionary with a different format
+st.write("Dictionary Display:", sample_dict)
